@@ -6,7 +6,7 @@ void merge(std::vector<int> &arr, int left , int mid , int right)
     int i = left;
     int j = mid + 1;
      
-    std:: vector<int> b(right - left + 1 , 0);
+    std:: vector<int> b(right + 1 , 0);
 
     for(int k = left; k <= right ; k++)
     {
