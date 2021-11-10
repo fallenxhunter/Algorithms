@@ -1,0 +1,14 @@
+/*
+    #String Hashing
+
+    To compare two string using string matching by character comparing one by one,
+    it requires O(N) time
+
+    We can optimize this to O(1) using a hash function to hash strings.
+    Since identical string should have same hash value, we can compare them by comparing 
+    hash value in O(1). Collision should be avoided while hashing to get accurate results.
+
+
+    Polynomial Rolling String Hashing
+     
+*/
